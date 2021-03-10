@@ -23,7 +23,8 @@
         <div style="text-align: center;font-size: 16px;padding-top: 20px;box-sizing: border-box;color: #999;">
             ${survey.remark}
         </div>
-<%--        <div style="width: 100%;height: 90px; text-align: center;"><span>${survey.title}</span></div>--%>
+<%--        <div style
+="width: 100%;height: 90px; text-align: center;"><span>${survey.title}</span></div>--%>
         <ul class="content">
             <c:forEach items="${survey.questions}" var="question" varStatus="status">
                 <c:if test="${question.type == 1  or question.type == 2 }">
